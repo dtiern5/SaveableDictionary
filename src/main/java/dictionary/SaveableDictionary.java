@@ -18,6 +18,12 @@ public class SaveableDictionary {
             dictionary.put(translation, word);
         }
     }
+    
+    public void delete(String word) {
+        String wordTranslated = dictionary.get(word);
+        dictionary.remove(word);
+        dictionary.remove(wordTranslated);
+    }
 
     public String translate(String word) {
             return dictionary.get(word);
