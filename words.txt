@@ -1,3 +1,8 @@
-apina:monkey
-alla oleva:below
-olut:beer
+pantalones:pants
+bolsa:bag
+mesa:table
+conejo:rabbit
+verde:green
+tortuga:turtle
+hola:hello
+maize:corn

@@ -10,9 +10,10 @@ public class Main {
             System.out.println("Successfully loaded the dictionary from file");
         }
 
-        System.out.println(dictionary.translate("apina"));
-        System.out.println(dictionary.translate("ohjelmointi"));
-        System.out.println(dictionary.translate("alla oleva"));
+        dictionary.add("pantalones", "pants");
+        dictionary.add("bolsa", "bag");
+        
+        dictionary.save();
 
     }
 }
